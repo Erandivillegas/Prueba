@@ -8,8 +8,13 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    
+    @IBAction func Buttom(_ sender: Any) {
+        print("Funciona el boton")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
